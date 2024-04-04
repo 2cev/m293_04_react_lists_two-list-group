@@ -1,0 +1,24 @@
+.spacerH {
+    height: 1em;
+}
+.spacerHDouble {
+    height: 2em;
+}
+.spacerWFit {
+    width: fit-content;
+}
+.spacerWFull {
+    width: 100%;
+}
+.spacerHClr{
+	border: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(00, 00, 00, 0.2);
+}
+.spacerHClrStrong{
+	border: 0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(00, 00, 00, 0.5);
+}

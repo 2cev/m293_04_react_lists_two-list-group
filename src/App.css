@@ -1,14 +1,172 @@
-.App {
-  text-align: center;
+/* O_o => main structure classes ========================= */
+.Stage {
+	width: 100%;
+	height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.StgWrapper {
+	width: 60vw;
+	height: auto;
+	padding: 5vh 20vw;
+}
+/* O_o => <= o_O */
+.BtnSubmit {
+    margin-top: 1rem;
+}
+/* O_o => <= o_O */
+.StgTitle {
+	width: 100%;
+	height: 100%;
+	/* margin-bottom: 1em; */
+	padding: 0.25em 0.5em;
+}
+.DivTitle {
+	width: 100%;
+	height: 100%;
+	/* margin-bottom: 0.5em; */
+	padding: 0.25em 0.5em;
+}
+.DivSubTitle {
+	width: 100%;
+	height: 100%;
+	/* margin-bottom: 0.25em; */
+	/* padding: 0.25em 0.5em; */
+}
+/* O_o => <= o_O */
+h1 {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+	font-size: 40px;
+	color: #000000;
+}
+h1 span {
+	display: block;
+	font-size: 0.5em;
+	line-height: 1.2;
+	margin-top: 0.25em;
+}
+h1 em {
+	font-style: normal;
+	font-weight: 600;
+}
+/* O_o => <= o_O */
+h2 {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 100;
+	font-size: 30px;
+	color: #000000;
+}
+h2 span {
+	display: block;
+	font-size: 0.5em;
+	line-height: 1.2;
+	margin-top: 0.25em;
+}
+h2 em {
+	font-style: normal;
+	font-weight: 400;
+}
+/* O_o => <= o_O */
+h3 {
+	position: relative;
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	font-weight: 100;
+	font-size: 18px;
+	color: #000000;
+}
+h3 span {
+	display: block;
+	font-size: 0.65em;
+	line-height: 1.2;
+	margin-top: 0.25em;
+}
+h3 em {
+	font-style: normal;
+	font-weight: 400;
+}
+/* O_o => sub structure classes ========================= */
+.App {
+	width:auto;
+	height:auto;
+}
+.DivWrapper {
+	width: inherit;
+	height: auto;
+	padding: 0.125em 0.25em;
+	margin: 0.25em 1.0em;
+}
+.DivFlexFlowRow {
+    display: flex;
+    flex-direction: row;
+    /* gap: 1em; */
+    gap: 0.25em;
+    width: fit-content;
+}
+.DivFlexFlowCol {
+    display: flex;
+    flex-direction: column;
+    /* gap: 1em; */
+    gap: 0.25em;
+    height: fit-content;
+}
+/* O_o => fnctional classes ====================== */
+input[type="radio"]:checked {
+    font-weight: bolder;
+	color: rgba(0, 0, 255, 1);
+}
+/* O_o => visual classes ========================= */
+.ClrGrey {
+	background-color: rgba(00, 00, 00, 0.025);
+	/* border: 1px solid rgba(00, 00, 00, 0.1); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(00, 00, 00, 0.1);
+}
+.ClrRed {
+	background-color: rgba(255, 00, 00, 0.05);
+	/* border: 1px solid rgba(255, 00, 00, 0.2); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 00, 00, 0.2);
+}
+.ClrGreen {
+	background-color: rgba(00, 255, 00, 0.05);
+	/* border: 1px solid rgba(00, 255, 00, 0.2); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(00, 255, 00, 0.2);
+}
+/* O_o => helper classes ========================= */
+.SpacerW {
+    width: 1em;
+    height: fit-content;
+}
+.SpacerH {
+    width: fit-content;
+    height: 1em;
+}
+.SpacerHLine{
+	width:100%;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(00, 00, 00, 0.1);
+}
+.PadL {
+	padding-left: 0.5em;
+}
+.PadR {
+	padding-right: 0.5em;
+}
+.MargL {
+	margin-left: 0.5em;
+}
+.MargR {
+	margin-right: 0.5em;
 }
