@@ -1,1 +1,3 @@
-import "./ListVariant001.css"
+<script>
+    import "./ListVariant001.css"
+</script>
