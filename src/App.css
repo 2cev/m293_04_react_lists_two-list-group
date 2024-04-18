@@ -129,19 +129,33 @@ input[type="radio"]:checked {
 	border-bottom-style: solid;
 	border-bottom-color: rgba(00, 00, 00, 0.1);
 }
-.ClrRed {
-	background-color: rgba(255, 00, 00, 0.05);
-	/* border: 1px solid rgba(255, 00, 00, 0.2); */
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: rgba(255, 00, 00, 0.2);
-}
 .ClrGreen {
 	background-color: rgba(00, 255, 00, 0.05);
 	/* border: 1px solid rgba(00, 255, 00, 0.2); */
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: rgba(00, 255, 00, 0.2);
+}
+.ClrYellow {
+	background-color: rgba(255, 255, 0, 0.05);
+	/* border: 1px solid rgba(00, 255, 00, 0.2); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 255, 00, 0.2);
+}
+.ClrOrange {
+	background-color: rgba(255, 151, 0, 0.05);
+	/* border: 1px solid rgba(255, 00, 00, 0.2); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 151, 00, 0.2);
+}
+.ClrRed {
+	background-color: rgba(255, 00, 00, 0.05);
+	/* border: 1px solid rgba(255, 00, 00, 0.2); */
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: rgba(255, 00, 00, 0.2);
 }
 /* O_o => helper classes ========================= */
 .SpacerW {
